@@ -24,6 +24,23 @@ file_handler_logger.setFormatter(formatter)
 logger.addHandler(console_handler_loger)
 logger.addHandler(file_handler_logger)
 
+def load_params(params_path: str) -> dict:
+    """Load parameters from a YAML file."""
+    try:
+        with open(params_path, 'r') as file:
+            params = yaml.safe_load(file)
+        logger.debug('Parameters retrieved from %s', params_path)
+        return params
+    except FileNotFoundError:
+        logger.error('File not found: %s', params_path)
+        raise
+    except yaml.YAMLError as e:
+        logger.error('YAML error: %s', e)
+        raise
+    except Exception as e:
+        logger.error('Unexpected error: %s', e)
+        raise
+
 def load_data(data_url:str)->pd.DataFrame:
     try:
         df = pd.read_csv(data_url)
@@ -55,7 +72,7 @@ def save_data(train_data:pd.DataFrame, test_data:pd.DataFrame, data_path:str)-> 
         os.makedirs(raw_data_path, exist_ok=True)
         train_data.to_csv(os.path.join(raw_data_path, 'train.csv'), index=False)
         test_data.to_csv(os.path.join(raw_data_path, 'test.csv'), index=False)
-        logger.debug("TRAINING AND TESTING DATA ARE SAVED TO THE RAW DATA PATH", raw_data_path)
+        logger.debug("TRAINING AND TESTING DATA ARE SAVED TO THE RAW DATA PATH %s", raw_data_path)
         
     except Exception as e:
         logger.error("Unexpected Error saving the data to the raw data path: %s", e)
@@ -63,7 +80,9 @@ def save_data(train_data:pd.DataFrame, test_data:pd.DataFrame, data_path:str)-> 
     
 def main():
     try:
-        test_size = 0.2
+        params = load_params(params_path='params.yaml')
+        test_size = params['data_ingestion']['test_size']
+        # test_size = 0.2
         data_url = "https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv"
         df = load_data(data_url=data_url)
         final_df = preprocess_data(df=df)

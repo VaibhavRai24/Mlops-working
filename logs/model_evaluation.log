@@ -129,3 +129,13 @@
 2024-12-24 12:52:28,327 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
 2024-12-24 12:52:28,874 - model_evaluation - DEBUG - Model evaluation metrics calculated
 2024-12-24 12:52:28,881 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json
+2024-12-24 15:13:48,555 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 15:13:48,560 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 15:13:49,002 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 15:13:49,448 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 15:13:49,453 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json
+2024-12-24 15:16:08,413 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 15:16:08,417 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 15:16:09,049 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 15:16:09,780 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 15:16:09,784 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json

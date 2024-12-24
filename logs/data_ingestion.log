@@ -10,3 +10,13 @@
 2024-12-24 12:48:37,291 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
 2024-12-24 12:49:34,371 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
 2024-12-24 12:49:34,374 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-24 15:12:31,218 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:12:32,159 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-24 15:12:32,161 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-24 15:15:48,240 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:15:48,745 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-24 15:15:48,746 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-24 15:22:20,051 - data_ingestion - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:22:20,855 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-24 15:22:20,857 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-24 15:22:20,893 - data_ingestion - DEBUG - TRAINING AND TESTING DATA ARE SAVED TO THE RAW DATA PATH ./data\raw_data

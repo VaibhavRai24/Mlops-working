@@ -1,0 +1,8 @@
+2024-12-21 23:10:41,131 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-21 23:10:41,136 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-21 23:11:08,711 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-21 23:11:08,712 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-21 23:22:58,552 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-21 23:22:58,555 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED
+2024-12-22 16:38:43,179 - data_ingestion - DEBUG - Data loaded from the https://raw.githubusercontent.com/vikashishere/Datasets/main/spam.csv
+2024-12-22 16:38:43,185 - data_ingestion - DEBUG - DATA PREPROCESSING IS COMPLETED

@@ -1,0 +1,8 @@
+2024-12-23 16:18:23,321 - model_building - DEBUG - Data is successfully loaded
+2024-12-23 16:18:23,322 - model_building - DEBUG - Initizialing the RandomForest model with the parameters:{'n_estimators': 25, 'random_state': 2}
+2024-12-23 16:18:23,367 - model_building - DEBUG - Model training has been completed
+2024-12-23 16:18:23,373 - model_building - DEBUG - File saved to: models/model.pkl
+2024-12-23 22:56:02,985 - model_building - DEBUG - Data is successfully loaded
+2024-12-23 22:56:02,986 - model_building - DEBUG - Initizialing the RandomForest model with the parameters:{'n_estimators': 25, 'random_state': 2}
+2024-12-23 22:56:03,051 - model_building - DEBUG - Model training has been completed
+2024-12-23 22:56:03,058 - model_building - DEBUG - File saved to: models/model.pkl

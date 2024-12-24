@@ -124,3 +124,8 @@
 2024-12-23 21:47:47,074 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
 2024-12-23 21:47:47,546 - model_evaluation - ERROR - Error during model evaluation: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
 2024-12-23 21:47:47,546 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 12:52:27,827 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 12:52:27,834 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 12:52:28,327 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 12:52:28,874 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 12:52:28,881 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json

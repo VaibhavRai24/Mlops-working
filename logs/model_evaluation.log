@@ -139,3 +139,67 @@
 2024-12-24 15:16:09,049 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
 2024-12-24 15:16:09,780 - model_evaluation - DEBUG - Model evaluation metrics calculated
 2024-12-24 15:16:09,784 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json
+2024-12-24 15:49:22,798 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:49:22,977 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 15:49:22,983 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 15:49:23,753 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 15:49:24,440 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 15:49:25,167 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 15:51:48,760 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:51:48,926 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 15:51:48,932 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 15:51:49,501 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 15:51:50,169 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 15:51:50,870 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 15:53:33,626 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:53:33,803 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 15:53:33,810 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 15:53:34,569 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 15:53:35,282 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 15:53:35,993 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 15:55:51,359 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:55:51,527 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 15:55:51,533 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 15:55:52,269 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 15:55:52,997 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 15:55:53,682 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 16:00:37,480 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:00:37,651 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 16:00:37,657 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 16:00:38,360 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 16:00:39,073 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 16:00:39,766 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 16:02:58,220 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:02:58,402 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 16:02:58,408 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 16:02:59,041 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 16:02:59,705 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 16:03:00,407 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 16:14:41,405 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:14:41,592 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 16:14:41,598 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 16:14:42,306 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 16:14:43,005 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 16:14:43,774 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 16:16:10,571 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:16:10,828 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 16:16:10,837 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 16:16:11,452 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 16:16:12,046 - model_evaluation - ERROR - Error during model evaluation: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 16:16:12,046 - model_evaluation - ERROR - Failed to complete the model evaluation process: Target is multiclass but average='binary'. Please choose another average setting, one of [None, 'micro', 'macro', 'weighted'].
+2024-12-24 16:17:03,363 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:17:03,534 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 16:17:03,540 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 16:17:04,168 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' ... '0' '0' '0']
+2024-12-24 16:17:04,881 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 16:17:05,690 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json
+2024-12-24 16:23:01,983 - model_evaluation - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:23:02,110 - model_evaluation - DEBUG - Model loaded from ./models/model.pkl
+2024-12-24 16:23:02,113 - model_evaluation - DEBUG - Data loaded from ./data/processed/test_tfidf.csv
+2024-12-24 16:23:02,119 - model_evaluation - DEBUG - Predictions: ['0' '0' '0' '0' '0'
+ 'urgent call 09066350750 landlin complimentari 4 ibiza holiday cash await collect sae cs po box 434 sk3 8wp 150 ppm'
+ '0' '0' '0' '0' '0' '0' '0' '0'
+ 'urgent call 09066350750 landlin complimentari 4 ibiza holiday cash await collect sae cs po box 434 sk3 8wp 150 ppm'
+ '0' '0' '0' '0' '0' '0' '0' '0' '0' '0']
+2024-12-24 16:23:02,134 - model_evaluation - DEBUG - Model evaluation metrics calculated
+2024-12-24 16:23:02,737 - model_evaluation - DEBUG - Metirces saved to reports/metrics.json

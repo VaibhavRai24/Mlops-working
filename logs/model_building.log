@@ -35,3 +35,15 @@
 2024-12-24 15:31:41,623 - model_building - DEBUG - Model training has been started with samples: 4057
 2024-12-24 15:31:41,718 - model_building - DEBUG - Model training has been completed
 2024-12-24 15:31:41,734 - model_building - DEBUG - File saved to: models/model.pkl
+2024-12-24 15:49:20,220 - model_building - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 15:49:20,226 - model_building - DEBUG - Data is successfully loaded
+2024-12-24 15:49:20,227 - model_building - DEBUG - Initizialing the RandomForest model with the parameters:{'n_estimators': 24, 'random_state': 22}
+2024-12-24 15:49:20,227 - model_building - DEBUG - Model training has been started with samples: 3500
+2024-12-24 15:49:20,274 - model_building - DEBUG - Model training has been completed
+2024-12-24 15:49:20,280 - model_building - DEBUG - File saved to: models/model.pkl
+2024-12-24 16:22:59,515 - model_building - DEBUG - Parameters retrieved from params.yaml
+2024-12-24 16:22:59,523 - model_building - DEBUG - Data is successfully loaded
+2024-12-24 16:22:59,524 - model_building - DEBUG - Initizialing the RandomForest model with the parameters:{'n_estimators': 30, 'random_state': 33}
+2024-12-24 16:22:59,524 - model_building - DEBUG - Model training has been started with samples: 5146
+2024-12-24 16:22:59,587 - model_building - DEBUG - Model training has been completed
+2024-12-24 16:22:59,598 - model_building - DEBUG - File saved to: models/model.pkl
